@@ -2,46 +2,18 @@
 <html>
   <head>
     <title>Rock Paper Scissors Lizard Spock</title>
-    <style>
-    body {
-      font-family: 'Helvetica Neue';
-      margin: 15px 0 0 30px;
-    }
-
-    .choices img {
-      width: 15%;
-      margin-right: 2.5%;
-      cursor: pointer;
-      opacity: 0.5;
-      transition: 1s all ease;
-    }
-
-    .choices img:hover {
-      opacity: 1;
-    }
-
-    h2, h3 {
-      text-transform: capitalize;
-    }
-
-    #results {
-      list-style: none;
-    }
-
-    #results li {
-      background: #999;
-      color: #fff;
-      font-size: 24px;
-      border-radius: 8px;
-      padding: 5px;
-      width: 80%;
-      margin-bottom: 10px;
-      display: none;
-    }
-    </style>
+    <link rel=" stylesheet" type="text/css" href="./style.css" >
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
   </head>
-  <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
+  <body class="gradient">
+    <h1 id="headline">Rock <=> Paper <=> Scissors <=> Lizard <=> Spock</h1>
     <div class='choices'>
       <img src="images/rock.png" data-pick="rock">
       <img src="images/paper.png" data-pick="paper">
@@ -50,6 +22,13 @@
       <img src="images/spock.png" data-pick="spock">
     </div>
     <ul id="results"></ul>
+    <footer class="site-footer">
+      <div id="details">
+        <p>You know the game of Rock, Paper, Scissors, but did you not know that there were also Lizard and Spock? You have been playing it wrong all these years!</p>
+        <p>The rules are simple; scissors cut paper, paper covers rock, rock crushes lizard, lizard poisons Spock, spock smashes scissors, scissors decapitate lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock and rock crushes scissors. See, Simple!</p>
+        <h3>Have fun!</h3>
+      </div>
+    </footer>
 
     <script src='lib/Player.js'></script>
     <script src='lib/Game.js'></script>
@@ -73,5 +52,6 @@
         });
       })
     </script>
+
   </body>
 </html>
