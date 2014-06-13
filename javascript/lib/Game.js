@@ -22,6 +22,10 @@ Game.prototype.winner = function() {
   }
 }
 
+Game.prototype._isSamePick = function() {
+  return this.player1.pick === this.player2.pick;
+}
+
 Game.prototype.loser = function() {
   return (this.winner() === this.player1 ? this.player2 : this.player1);
 }
@@ -44,6 +48,3 @@ Game.prototype._victoryVerbFor = function(pick, opponentPick) {
   return this.PAIRS[pick][opponentPick];
 }
 
-Game.prototype._isSamePick = function() {
-  return this.player1.pick === this.player2.pick;
-}
