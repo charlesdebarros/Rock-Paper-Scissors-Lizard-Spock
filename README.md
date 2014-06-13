@@ -1,6 +1,6 @@
 Rock Paper Scissors Lizard Spock
 ---
-![](https://raw.githubusercontent.com/charlesdebarros/Rock-Paper-Scissors-Lizard-Spock/master/public/images/gameScreenshot.jpg?raw=true)
+![](https://raw.githubusercontent.com/charlesdebarros/Rock-Paper-Scissors-Lizard-Spock/master/javascript/images/gameScreenshot.jpg?raw=true)
 
 Week 7 project @makersacademy set by @alexpeattie
 to develop a Rock, Paper, Scissors game using JavaScript.
@@ -18,7 +18,7 @@ Enjoy!
 * CSS
 * Google fonts
 
-![](https://raw.githubusercontent.com/charlesdebarros/Rock-Paper-Scissors-Lizard-Spock/master/public/images/jasmineTestScreenshot.jpg?raw=true)
+![](https://raw.githubusercontent.com/charlesdebarros/Rock-Paper-Scissors-Lizard-Spock/master/javascript/images/jasmineTestScreenshot.jpg?raw=true)
 
 
 ### Instructions
