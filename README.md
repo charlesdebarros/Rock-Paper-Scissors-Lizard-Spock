@@ -20,6 +20,7 @@ Enjoy!
 * Google fonts
 
 ![Jasmine Testing](https://raw.githubusercontent.com/charlesdebarros/Rock-Paper-Scissors-Lizard-Spock/master/javascript/images/jasmineTestScreenshot.jpg?raw=true "Testing application using Jasmine")
+Testing application using Jasmine
 
 
 ### Instructions
