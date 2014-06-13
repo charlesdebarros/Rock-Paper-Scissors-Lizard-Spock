@@ -27,4 +27,4 @@ Testing application using Jasmine
 To run the application run `shotgun` from terminal and then open
 `localhost:9393` in your web browser. 
 
-Note: At the moment, the computer will always choose 'spoke' as its playing option. The feature to permit the computer to choose random options will be added in the future.
+Note: At the moment, the computer will always choose 'Spock' as its playing option. The feature to permit the computer to choose random options will be added in the future.
